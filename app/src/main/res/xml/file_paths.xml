@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name = "images" path="."/>
+    <cache-path path="." name="cache_root" />
+    <external-path path="." name="external_storage_root" />
+    <external-path name="external-path" path="." />
+    <!-- 用于7.0拍照，存储路径为 storage/emulated/0/Android/data/包名/Pictures/-->
+
+    <!-- /storage/emulated/0/PlantSnap -->
+<!--    <external-path name="external" path="PlantSnap" />-->
+    <!--context.getFileDir()-->
+    <files-path name="files" path="path" />
+    <!--context.getCacheDir()-->
+    <cache-path name="cache" path="path" />
+    <!--context.getExternalFilesDirs()-->
+    <external-files-path name="name" path="." />
+    <!--getExternalCacheDirs()-->
+    <external-cache-path name="name" path="path" />
+</paths>
